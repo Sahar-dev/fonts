@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</head>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+<script>
+    $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+    });
+</script>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Medico Clinic</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active"
+                    style="background-image: url('https://images.unsplash.com/photo-1666214280429-d3985e2ef0b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80')">
+                    <div class="carousel-caption">
+                        <h5>Best Care</h5>
+                        <p>Our clinc hires the top doctors from all the world.</p>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                    style="background-image: url('https://images.pexels.com/photos/1250655/pexels-photo-1250655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')">
+                    <div class="carousel-caption">
+                        <h5>Best equipment</h5>
+                        <p>Our clinc contains the best technlogies and equipments.</p>
+                    </div>
+                </div>
+                <div class="carousel-item"
+                    style="background-image: url('https://images.pexels.com/photos/3279203/pexels-photo-3279203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)">
+                    <div class="carousel-caption">
+                        <h5>Your health is our Job</h5>
+                        <p>We keep a very close eye on every detail.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Page Content -->
+    <section class="py-5">
+        <div class="container">
+            <h1 class="fw-light">MEDICO clinic</h1>
+            <p class="lead">Medico is an integrated healthcare system that brings together physicians and
+                researchers from
+                award-winning facilities in the Chicago area. Each of the Northwestern Medicine hospitals has a unique
+                story, but the
+                system shares the same vision. Northwestern Medicine is committed to superior quality, academic
+                excellence, scientific
+                discovery and patient safety.
+            </p>
+        </div>
+
+    </section>
+    <hr>
+    <section class="sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="well-block">
+                        <div class="well-title">
+                            <h2>Questions? Book an Appointment</h2>
+                        </div>
+                        <form>
+                            <!-- Form start -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="name">Name</label>
+                                        <input id="name" name="name" type="text" placeholder="Name"
+                                            class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="email">Email</label>
+                                        <input id="email" name="email" type="text" placeholder="E-Mail"
+                                            class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Text input-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="date">Preferred Date</label>
+                                        <input id="date" name="date" type="text" placeholder="Preferred Date"
+                                            class="form-control input-md">
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label" for="time">Preferred Time</label>
+                                        <select id="time" name="time" class="form-control">
+                                            <option value="8:00 to 9:00">8:00 to 9:00</option>
+                                            <option value="9:00 to 10:00">9:00 to 10:00</option>
+                                            <option value="10:00 to 1:00">10:00 to 1:00</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Select Basic -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="control-label" for="appointmentfor">Appointment For</label>
+                                        <select id="appointmentfor" name="appointmentfor" class="form-control">
+                                            <option value="Service#1">Service#1</option>
+                                            <option value="Service#2">Service#2</option>
+                                            <option value="Service#3">Service#3</option>
+                                            <option value="Service#4">Service#4</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- Button -->
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="submit" id="singlebutton" name="singlebutton"
+                                            class="btn btn-outline-primary" value="Make An
+                                        Appointment" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- form end -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="well-block">
+                        <div class="well-title">
+                            <h2>Why Appointment with Us</h2>
+                        </div>
+                        <div class="feature-block">
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">24/7 Hours Available</h4>
+                                <div class="feature-content">
+                                    <p>Integer nec nisi sed mi hendrerit mattis. Vestibulum mi nunc, ultricies quis
+                                        vehicula et,
+                                        iaculis in magnestibulum.</p>
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">Experienced Staff Available</h4>
+                                <div class="feature-content">
+                                    <p>Aliquam sit amet mi eu libero fermentum bibendum pulvinar a turpis. Vestibulum
+                                        quis
+                                        feugiat risus. </p>
+                                </div>
+                            </div>
+                            <div class="feature feature-blurb-text">
+                                <h4 class="feature-title">Low Price & Fees</h4>
+                                <div class="feature-content">
+                                    <p>Praesent eu sollicitudin nunc. Cras malesuada vel nisi consequat pretium. Integer
+                                        auctor
+                                        elementum nulla suscipit in.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <div class="container cta-100 ">
+
+        <div class="container">
+            <div class="row blog">
+                <div class="col-md-12">
+                    <div id="blogCarousel" class="carousel slide container-blog" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#blogCarousel" data-slide-to="1"></li>
+                        </ol>
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu
+                                                        01</span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt=""
+                                                        src="https://pixabay.com/get/g9fecae00b48af6ad3638a7c7a96aba1aff5a92fe390044699ed53d8a48e5ff99bdc2cb3e8ac8f552db2e8926f8003afd_1280.jpg">
+                                                </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="#" tabindex="0">
+                                                        <h5>News Title</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data">
+                                                    <p><i class="fa fa-user-o"></i> Admin, <i
+                                                            class="fa fa-comments-o"></i>
+                                                        Comments(3)</p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing.
+                                                        Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor.</p>
+                                                </div>
+                                                <div class="mt"> <a href="#" tabindex="0"
+                                                        class="btn bg-blue-ui white read">read more</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu
+                                                        01</span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt=""
+                                                        src="https://pixabay.com/get/gfdb48448c6bda5474409aee4c4b6ddbfaa620138c15dba357e779130460655abc1b53771c306e660e05bf779fa6d003f_1280.jpg">
+                                                </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="#" tabindex="0">
+                                                        <h5>News Title</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data" <p><i class="fa fa-user-o"></i> Admin,
+                                                    <i class="fa fa-comments-o"></i>
+                                                    Comments(3)</p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing.
+                                                        Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor.</p>
+                                                </div>
+                                                <div class="mt"> <a href="#" tabindex="0"
+                                                        class="btn bg-blue-ui white read">read more</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu
+                                                        01</span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt=""
+                                                        src="https://pixabay.com/get/g925cb38b1ec34dd64a87b09e50f68ce33eac1940ac838d103f916bedc25f467972c8b6c62a2e475613cc485f3606e481_1280.jpg">
+                                                </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="#" tabindex="0">
+                                                        <h5>News Title</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data">
+                                                    <p><i class="fa fa-user-o"></i> Admin, <i
+                                                            class="fa fa-comments-o"></i>
+                                                        Comments(3)</p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing.
+                                                        Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor.</p>
+                                                </div>
+                                                <div class="mt"> <a href="#" tabindex="0"
+                                                        class="btn bg-blue-ui white read">read more</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+                            <div class="carousel-item ">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu
+                                                        01</span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt=""
+                                                        src="https://pixabay.com/get/g9fecae00b48af6ad3638a7c7a96aba1aff5a92fe390044699ed53d8a48e5ff99bdc2cb3e8ac8f552db2e8926f8003afd_1280.jpg">
+                                                </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="#" tabindex="0">
+                                                        <h5>News Title</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data">
+                                                    <p><i class="fa fa-user-o"></i> Admin, <i
+                                                            class="fa fa-comments-o"></i>
+                                                        Comments(3)</p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing.
+                                                        Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor.</p>
+                                                </div>
+                                                <div class="mt"> <a href="#" tabindex="0"
+                                                        class="btn bg-blue-ui white read">read more</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu
+                                                        01</span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt=""
+                                                        src="https://pixabay.com/get/gfdb48448c6bda5474409aee4c4b6ddbfaa620138c15dba357e779130460655abc1b53771c306e660e05bf779fa6d003f_1280.jpg">
+                                                </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="#" tabindex="0">
+                                                        <h5>News Title</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data">
+                                                    <p><i class=" fa fa-user-o"></i> Admin, <i
+                                                            class="fa fa-comments-o"></i>
+                                                        Comments(3)</p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing.
+                                                        Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor.</p>
+                                                </div>
+                                                <div class="mt"> <a href="#" tabindex="0"
+                                                        class="btn bg-blue-ui white read">read more</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item-box-blog">
+                                            <div class="item-box-blog-image">
+                                                <!--Date-->
+                                                <div class="item-box-blog-date bg-blue-ui white"> <span class="mon">Augu
+                                                        01</span> </div>
+                                                <!--Image-->
+                                                <figure> <img alt=""
+                                                        src="https://pixabay.com/get/gfdb48448c6bda5474409aee4c4b6ddbfaa620138c15dba357e779130460655abc1b53771c306e660e05bf779fa6d003f_1280.jpg">
+                                                </figure>
+                                            </div>
+                                            <div class="item-box-blog-body">
+                                                <!--Heading-->
+                                                <div class="item-box-blog-heading">
+                                                    <a href="#" tabindex="0">
+                                                        <h5>News Title</h5>
+                                                    </a>
+                                                </div>
+                                                <!--Data-->
+                                                <div class="item-box-blog-data">
+                                                    <p><i class="fa fa-user-o"></i> Admin, <i
+                                                            class="fa fa-comments-o"></i>
+                                                        Comments(3)</p>
+                                                </div>
+                                                <!--Text-->
+                                                <div class="item-box-blog-text">
+                                                    <p>Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor sit amet, adipiscing.
+                                                        Lorem ipsum dolor sit amet, adipiscing. Lorem ipsum dolor sit
+                                                        amet,
+                                                        consectetuer adipiscing. Lorem ipsum dolor.</p>
+                                                </div>
+                                                <div class="mt"> <a href="#" tabindex="0"
+                                                        class="btn bg-blue-ui white read">read more</a> </div>
+                                                <!--Read More Button-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--.row-->
+                            </div>
+                            <!--.item-->
+                        </div>
+                        <!--.carousel-inner-->
+                    </div>
+                    <!--.Carousel-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="heading-title text-center">
+                <h3 class="text-uppercase">Our professionals </h3>
+                <p class="p-top-30 half-txt">Nam pulvinar vitae neque et porttitor. Praesent sed nisi eleifend. Nam
+                    pulvinar vitae neque et porttitor. Praesent sed nisi eleifend. </p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="team-member">
+                    <div class="team-img">
+                        <img class="card-img-top"
+                            src="https://image.freepik.com/free-photo/man-standing-with-a-black-t-shirt_1187-1045.jpg"
+                            alt="team member" class="img-responsive">
+                    </div>
+                    <div class="team-hover">
+                        <div class="desk">
+                            <h4>Hi There !</h4>
+                            <p>I love to introduce myself as a hardcore Nurse.</p>
+                        </div>
+                        <div class="s-link">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-title">
+                    <h5>Martin Smith</h5>
+                    <span>Head Nurse</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="team-member">
+                    <div class="team-img">
+                        <img class="card-img-top"
+                            src="https://image.freepik.com/free-photo/elegant-man-with-thumbs-up_1149-1595.jpg"
+                            alt="team member" class="img-responsive">
+                    </div>
+                    <div class="team-hover">
+                        <div class="desk">
+                            <h4>Hello World</h4>
+                            <p>I love to introduce myself as a hardcore Doctor.</p>
+                        </div>
+                        <div class="s-link">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-title">
+                    <h5>Franklin Harbet</h5>
+                    <span>Head Doctor</span>
+                </div>
+            </div>
+            <div class="col-xl-3 col-md-6 mb-4">
+                <div class="team-member">
+                    <div class="team-img">
+                        <img class="card-img-top"
+                            src="https://image.freepik.com/free-photo/well-dressed-executive-with-crossed-arms_1098-3930.jpg"
+                            alt="team member" class="img-responsive">
+                    </div>
+                    <div class="team-hover">
+                        <div class="desk">
+                            <h4>I love to design</h4>
+                            <p>I love to introduce myself as a hardcore CEO.</p>
+                        </div>
+                        <div class="s-link">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-title">
+                    <h5>Linda Anderson</h5>
+                    <span>CEOr</span>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <footer class="container-fluid bg-grey py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <div class="logo-part">
+                                <img src="logo1.png" class="w-50 logo-footer">
+                                <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
+                                <p>Use this tool as test data for an automated system or find your next pen</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-4">
+                            <h6> About Company</h6>
+                            <p>But horizontal lines can only be a full pixel high.</p>
+                            <a href="#" class="btn-footer"> More Info </a><br>
+                            <a href="#" class="btn-footer"> Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 px-4">
+                            <h6> Help us</h6>
+                            <div class="row ">
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li> <a href="#"> Home</a> </li>
+                                        <li> <a href="#"> About</a> </li>
+                                        <li> <a href="#"> Service</a> </li>
+                                        <li> <a href="#"> Team</a> </li>
+                                        <li> <a href="#"> Help</a> </li>
+                                        <li> <a href="#"> Contact</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 px-4">
+                                    <ul>
+                                        <li> <a href="#"> Cab Faciliy</a> </li>
+                                        <li> <a href="#"> Fax</a> </li>
+                                        <li> <a href="#"> Terms</a> </li>
+                                        <li> <a href="#"> Policy</a> </li>
+                                        <li> <a href="#"> Refunds</a> </li>
+                                        <li> <a href="#"> Paypal</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <h6> Newsletter</h6>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                            <form class="form-footer my-3">
+                                <input type="text" placeholder="search here...." name="search">
+                                <input type="button" value="Go">
+                            </form>
+                            <p>That's technology limitation of LCD monitors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
